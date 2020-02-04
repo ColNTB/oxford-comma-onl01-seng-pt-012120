@@ -6,7 +6,7 @@ def oxford_comma(array)
      elsif array.size == 3
            i = 0; 
            while i<(array.size)
-              array[i] = "#{array[i]}, " 
+              array[i] = ","
            end 
            
            return array 
